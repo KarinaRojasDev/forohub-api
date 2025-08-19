@@ -28,15 +28,21 @@ ForoHub es una plataforma de foros en línea que permite a los usuarios crear, c
 
 ```bash
 git clone https://github.com/KarinaRojasDev/forohub-api.git
+```
 
+---
 ## Autenticación con Spring Security
 
 A partir de ahora, solo los usuarios autenticados pueden interactuar con la API.
+
+---
 
 ### Funcionalidades
 - Registro e inicio de sesión de usuarios.
 - Acceso seguro a los endpoints de la API.
 - Validación de credenciales usando `AuthenticationManager`.
+
+---
 
 ### Configuración
 1. Agrega la dependencia **Spring Security** en tu `pom.xml`:
